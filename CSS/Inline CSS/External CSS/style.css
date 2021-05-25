@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background: black;
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-color: black;
+}
+body{
+    background-color: crimson
+}
