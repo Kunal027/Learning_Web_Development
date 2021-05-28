@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title>Class Selector</title>
+    <style>
+        /* Its written with .followed by the name of the class and the content is written within the curly braces*/
+        .redBorder{
+            border-style: solid;
+            border-color: red;
+            font-style: italic;
+            text-align: center;
+        }
+        .greenBorder{
+            border-style: dotted;
+            border-color: green;
+            text-align-last: center;
+        } 
+         #redBorder{
+            border-style: solid;
+            border-color: red;
+            font-style: italic;
+            text-align: center;
+        }
+        #greenBorder{
+            border-style: dotted;
+            border-color: green;
+            text-align-last: center;
+        }  
+        /*
+        id should be only one per element
+        id are unique 
+        each element can only have one id
+        each page can only have element with that id*/
+    </style>
+</head>
+<body>
+    <h1 id="greenBorder">This is the head of the page</h1>
+    <p class="redBorder">This is the body of the page</p>
+</body>
+</html>
