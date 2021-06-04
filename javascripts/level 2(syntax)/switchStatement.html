@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title>Switch statements</title>
+    <script>
+        var daysOfTheWeek = prompt("Enter the day of the week in number");
+        var result;
+        switch(daysOfTheWeek){
+            case '1' :
+                result = 'Monday';
+                break;
+            case '2' :
+                result = 'Tuesday';
+                break;
+            case '3' :
+                result = 'Wed';
+                break;
+            case '4' :
+                result = 'Thursday';
+                break;
+            case '5' :
+                result = 'Friday';
+                break;
+            case '6' :
+                result = 'Satday';
+                break;
+            case '7' :
+                result = 'Sundayday';
+                break;
+            default:
+                result = 'wrong input';
+        }
+    </script>
+</head>
+<body>
+   <script>
+       document.write("Day according to your input is " + result);
+   </script>
+</body>
+</html>
