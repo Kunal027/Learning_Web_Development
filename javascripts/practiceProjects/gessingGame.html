@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title>guessing game</title>
+    <script>
+        var message = "";
+        var ans = 7;
+        var count = 0;
+        var flag = false;
+
+        do{
+            var input1 = prompt("Guess a number from 1 to 10 ");
+            input1 = parseInt(input1);
+            
+            if(input1 != ans)
+            {
+                alert("Wrong answer try again")
+            }else{
+                flag == true;
+            }
+
+            if(count == 3){
+                break;
+            }
+            count ++;
+        }while(ans != input1);
+
+        if(flag)
+        {
+        message += "Congratulations you gussed it right";
+        }
+    </script>
+</head>
+<body>
+    <script>
+        document.write(message);
+    </script>
+</body>
+</html>
