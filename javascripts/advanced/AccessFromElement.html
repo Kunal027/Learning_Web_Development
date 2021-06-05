@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title></title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <script>
+        function checkFormData()
+        {
+            var inputs = document.getElementsByTagName("input");
+
+            var message = "Form Elements\n\n";
+
+            for(var i = 0; i < inputs.length; i++)
+            {
+                if(inputs[i].getAttribute('type') == ('text'))
+                {
+                    message += inputs[i].getAttribute('Name') + ":";
+                    message += inputs[i].value + "\n";
+                }
+
+                alert(message);
+                
+                    alert(document.getElementById('textName').value);
+                    alert(document.getElementById('EmailID').value);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Accessing form elements</h1>
+    <form name="user" id="userForm" action="#">
+
+        Name: <input type="text" name="Name" id="textName" />
+        <br>
+        Email: <input type="text" name="Email" id="EmailId" />
+        <br>
+        <input type="button" name="Submit" value="submitButton" 
+            onclick="checkFormData();"
+        />
+    </form>
+</body>
+</html>

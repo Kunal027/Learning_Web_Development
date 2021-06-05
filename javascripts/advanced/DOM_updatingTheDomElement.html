@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="" content="" />
+    <title>Find and element by data</title>
+    <script>
+        function update()
+        {
+            document.getElementById('textValue').innerHTML = 
+            document.getElementById('textName').value;
+        }
+    </script>
+</head>
+<body>
+    <h1>Finding an element</h1>
+    <p id="textValue"></p>
+    <form>
+        <input type = "text" id="textName" onkeypress="update();"/>
+    </form>
+</body>
+</html>
