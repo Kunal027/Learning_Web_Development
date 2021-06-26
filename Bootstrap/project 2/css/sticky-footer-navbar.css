@@ -1,0 +1,17 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.searchButtonPlacement{
+  position: absolute;
+  right: 15px;
+}
+
+.searchBarPlacement{
+  position: absolute;
+  right: 100px;;
+}
